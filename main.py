@@ -8,3 +8,7 @@ if __name__ == "__main__":
     print(f"Randomly populated Board")
     print(game.board)
     print()
+    game.evolve()
+    print()
+    print(game.board)
+    print()
